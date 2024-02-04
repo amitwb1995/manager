@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Now - Your Event Manager</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        /* Add your custom styles or gradients here */
+        /* Example: */
+        body {
+            background: linear-gradient(to right, #4a148c, #7c43bd);
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-900">
+
+    <!-- Navbar -->
+    <nav class="bg-transparent p-6">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="text-white font-bold text-xl">Event Manager</div>
+            <div class="flex items-center space-x-4">
+                <a href="index.html" class="text-white hover:text-gray-300">Home</a>
+                <a href="gallery.html" class="text-white hover:text-gray-300">Gallery</a>
+                <a href="book-now.html" class="text-white hover:text-gray-300">Book Now</a>
+                <!-- Add more navbar links as needed -->
+            </div>
+        </div>
+    </nav>
+
+    <!-- Book Now Section -->
+    <section id="bookNow" class="py-16 text-white">
+        <div class="container mx-auto text-center">
+            <h2 class="text-3xl font-bold mb-8 animate__animated animate__fadeIn">Book Now</h2>
+
+            <!-- Booking Form -->
+            <form id="bookingForm" class="mx-auto max-w-md">
+                <!-- Add your booking form fields here -->
+                <div class="mb-4">
+                    <label for="eventName" class="block text-sm font-semibold mb-2">Event Name</label>
+                    <input type="text" id="eventName" name="eventName" class="w-full p-2 border border-gray-300 rounded focus:outline-none focus:border-indigo-500">
+                </div>
+
+                <!-- Add more form fields as needed -->
+
+                <button type="submit" class="bg-green-500 text-white py-2 px-4 rounded-full hover:bg-green-600 transition duration-300">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-4">
+        <div class="container mx-auto text-center">
+            <!-- Add footer content as needed -->
+            <p>&copy; 2024 Your Event Manager. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Add your JavaScript code if needed -->
+
+</body>
+
+</html>
